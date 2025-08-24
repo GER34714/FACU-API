@@ -22,10 +22,3 @@ app.get("/api/whatsapp", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en puerto ${PORT}`);
 });
-
-
-// Render port
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Servidor API corriendo en puerto ${PORT}`);
-});
